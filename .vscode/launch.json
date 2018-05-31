@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "configurations": [
+        {
+            "name": "antlr4-mysql",
+            "type": "antlr-debug",
+            "request": "launch",
+            //"input": "${workspaceFolder}/${command:AskForTestInput}",
+            "input": "test.txt",
+            "grammar": "Calculator.g4",
+            "startRule": "equation",
+            "printParseTree": true,
+            "visualParseTree": true
+        }
+    ]
+}
